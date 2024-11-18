@@ -1,0 +1,137 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background: rgb(253, 253, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.nava{
+    display: flex;
+    gap: 2rem;
+}
+.nava a{
+    color: rgb(63, 83, 172);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+.nava a:hover{
+    background-color: rgb(81, 103, 199);
+    color: white;
+}
+.navbar p{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.main{
+    display: flex;
+    background-color: rgb(81, 103, 199);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.hero{
+    max-width: 50%;
+}
+.hero h1{
+    font-size: 3rem;
+    color: white;
+}
+.hero p{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.775);
+}
+
+.gambar{
+    max-width: 50%;
+
+}
+.gambar img{
+    width: 100%;
+
+}
+.btnh button{
+    background: none;
+    border: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid rgb(80, 137, 244);
+    border-radius: 30px;
+}
+.btnh button:hover{
+    background: rgb(80, 137, 244);
+}
+.btn{
+   gap: 1.5rem;
+}
+
+.secisi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(81, 103, 199, 0.09);
+    padding: 2rem;
+    text-align: center;
+}
+.secisi h1{
+    color: rgb(81, 103, 199);
+}
+
+.masukan{
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+}
+.masukan input{
+    background-color: transparent;
+    border: none;
+    width: 700px;
+    padding: 1rem;
+    outline: none;
+}
+
+.subs{
+    background: rgb(80, 137, 244);
+    width: 100px;
+    border-radius: 24px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 3rem;
+    gap: 5rem;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer img{
+    width: 60%;
+}
