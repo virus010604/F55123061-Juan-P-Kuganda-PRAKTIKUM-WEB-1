@@ -1,0 +1,40 @@
+h1{
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+    border: solid black 2px;
+}
+
+.flex-item{
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: gray;
+    padding: 20px;
+    grid-gap: 10px;
+    border: solid black 2px;
+}
+
+.grid-item{
+    padding: 20px;
+    color: black;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    text-align: center;
+}
