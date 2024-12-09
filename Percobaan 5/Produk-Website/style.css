@@ -1,10 +1,12 @@
 * {
     font-weight: bold;
+    font-family: monospace;
 }
 .flex-container {
     color: white;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: ;
   justify-content: center;
   align-items: center;
   margin: 5rem;
